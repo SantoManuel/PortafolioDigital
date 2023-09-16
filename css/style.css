@@ -30,7 +30,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,4 +117,11 @@ span{
 .btn:hover{
     box-shadow: none;
 
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
 }
